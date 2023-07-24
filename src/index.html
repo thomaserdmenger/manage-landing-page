@@ -7,6 +7,29 @@
     <title>Manage Landing Page</title>
   </head>
   <body>
-    <h1 class="text-3xl underline">Hello World</h1>
+    <!-- Navbar -->
+    <nav class="container relative mx-auto p-6">
+      <!-- Flex container -->
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <div class="pt-2">
+          <img src="../images/logo.svg" alt="logo" />
+        </div>
+        <!-- Menu items -->
+        <div class="hidden space-x-4 md:flex">
+          <a class="hover:text-darkGrayishBlue" href="#">Pricing</a>
+          <a class="hover:text-darkGrayishBlue" href="#">Product</a>
+          <a class="hover:text-darkGrayishBlue" href="#">About Us</a>
+          <a class="hover:text-darkGrayishBlue" href="#">Careers</a>
+          <a class="hover:text-darkGrayishBlue" href="#">Community</a>
+        </div>
+        <!-- Button -->
+        <a
+          class="baseline hidden rounded-full bg-brightRed px-6 py-2 text-white hover:bg-brightRedLight md:block"
+          href="#"
+          >Get Started</a
+        >
+      </div>
+    </nav>
   </body>
 </html>
