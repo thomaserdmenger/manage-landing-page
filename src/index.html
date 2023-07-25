@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=6.0" />
     <link rel="stylesheet" href="../dist/output.css" />
+    <script src="../src/script.js" defer></script>
     <title>Manage Landing Page</title>
   </head>
   <body>
@@ -29,6 +30,30 @@
           href="#"
           >Get Started</a
         >
+
+        <!-- Hamburger icon -->
+        <button
+          id="menu-btn"
+          class="hamburger block focus:outline-none md:hidden"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute left-6 right-6 mt-10 flex hidden flex-col items-center space-y-6 self-end bg-white py-8 font-bold drop-shadow-md sm:w-auto sm:self-center"
+        >
+          <a href="#">Pricing</a>
+          <a href="#">Product</a>
+          <a href="#">About Us</a>
+          <a href="#">Carriers</a>
+          <a href="#">Community</a>
+        </div>
       </div>
     </nav>
 
